@@ -18,7 +18,7 @@ gh repo create parthaindia/parthadev --private --source=. --push
 
 ## Repo settings
 
-- Visibility: **private** ✔️
+- Visibility: **public** (changed in PHASE 5 for free GitHub Pages hosting)
 - Default branch: `main`
 - URL: https://github.com/parthaindia/parthadev
 
@@ -34,7 +34,9 @@ Everything is covered by `.gitignore` (node_modules, dist, etc. are never commit
 
 ## Optional next steps
 
+- **🔥 GitHub Pages hosting** → see [PHASE 5](PHASE-5-github-pages.md) (done)
+
 - **Web analytics** — Vercel has free built-in analytics; or add umami/GoatCounter
-- **Custom domain** — e.g. `parthadev.in` via Vercel → Settings → Domains (~₹800/yr on GoDaddy/Namecheap)
+- **Custom domain** — e.g. `parthadev.in` via GitHub Pages custom domain or Vercel (~₹800/yr on GoDaddy/Namecheap)
 - **SEO** — add an OG image to `public/` and OG meta tags in `index.html`
 - **Form engine** — if you later want an enroll form (name/email/phone), Formspree free tier pairs well with this stack
