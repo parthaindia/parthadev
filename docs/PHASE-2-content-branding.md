@@ -5,7 +5,8 @@
 ## Design language (Gen-Z + Indian)
 
 - **Dark neon theme**: near-black background `#0a0a12` with lime `#c8ff3d` + purple `#a855f7` gradients
-- **Gen-Z copy, plain English only**: "made simple", "ask anything", "Here's the tea 🍵"
+- **Gen-Z copy, plain English only**: "made simple", "ask anything", "Here's the tea"
+- **Professional SVG icons** via `lucide-react` (no emoji anywhere in UI)
 - **Emoji-forward headlines**, pill-shaped buttons, glow effects, rounded cards
 - **Poppins font** (loaded in `index.html`)
 - Fully responsive: hamburger menu below 860px, stacked cards on mobile

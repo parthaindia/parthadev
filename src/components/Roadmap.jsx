@@ -5,7 +5,7 @@ export default function Roadmap() {
     <section className="section sec-alt" id="roadmap">
       <div className="container">
         <h2 className="section-title">
-          Your path: <span className="grad-text">zero → placed</span> 🎯
+          Your path: <span className="grad-text">zero → placed</span>
         </h2>
         <p className="section-sub">Follow the line. No guesswork, no random YouTube rabbit holes.</p>
 

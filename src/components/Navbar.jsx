@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NAV_LINKS, SITE, whatsappLink } from "../config";
+import { MessageCircle } from "lucide-react";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -19,7 +20,7 @@ export default function Navbar() {
             </a>
           ))}
           <a href={whatsappLink} target="_blank" rel="noreferrer" className="btn btn-nav">
-            Join Batch 💬
+            <MessageCircle /> Join Batch
           </a>
         </nav>
 

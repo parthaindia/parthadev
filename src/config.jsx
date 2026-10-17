@@ -11,11 +11,11 @@ export const SITE = {
     "Learn Data Engineering & Cloud from scratch — SQL, Python, Spark, Kafka, AWS & Azure. Beginner friendly, project first, made for Indian students.",
 };
 
-// ⚠️ Update these before launch
+// Update these before launch
 export const CONTACT = {
   whatsappNumber: "918095360531", // digits only, with country code. WhatsApp link auto built below
   whatsappMessage:
-    "Hi Partha! I saw your parthadev website. I want to learn Data Engineering 🚀",
+    "Hi Partha! I saw your parthadev website. I want to learn Data Engineering.",
   email: "buzzpartha@gmail.com",
   github: "https://github.com/parthaindia",
   linkedin: "https://www.linkedin.com/in/parthaindia", // TODO: replace with real profile
@@ -41,19 +41,19 @@ export const STATS = [
 ];
 
 export const WHY = [
-  { emoji: "🎯", title: "Zero theory, all practice", desc: "Every concept taught with a real example. No boring PPTs, pure vibes & value." },
-  { emoji: "🗂️", title: "Project-first learning", desc: "You build a real end-to-end Azure pipeline — bronze, silver, gold — then defend it in interviews." },
-  { emoji: "💸", title: "Talk fees in DM", desc: "Student-friendly pricing, EMI on request. No hidden fees game." },
-  { emoji: "🧑‍🏫", title: "Direct mentor access", desc: "Doubts on WhatsApp, not in a comments section. Real answers, fast." },
-  { emoji: "🇮🇳", title: "Made for India", desc: "Simple-English explanations, IST-friendly schedule, Naukri/LinkedIn job-hunt prep included." },
-  { emoji: "♻️", title: "Lifetime access", desc: "Recordings, notes & interview QA — yours forever, no expiry." },
+  { icon: "Target", title: "Zero theory, all practice", desc: "Every concept taught with a real example. No boring PPTs, pure value." },
+  { icon: "Layers", title: "Project-first learning", desc: "You build a real end-to-end Azure pipeline — bronze, silver, gold — then defend it in interviews." },
+  { icon: "IndianRupee", title: "Student-friendly fees", desc: "Affordable pricing with EMI on request. No hidden fees game." },
+  { icon: "UserCheck", title: "Direct mentor access", desc: "Doubts on WhatsApp, not in a comments section. Real answers, fast." },
+  { icon: "MapPin", title: "Made for India", desc: "Simple-English explanations, IST-friendly schedule, Naukri/LinkedIn job-hunt prep included." },
+  { icon: "InfinityIcon", title: "Lifetime access", desc: "Recordings, notes & interview QA — yours forever, no expiry." },
 ];
 
 // Accordion modules — click to open/close (from the official program PDF)
 export const MODULES = [
   {
     id: "de-program",
-    icon: "🚀",
+    icon: "Rocket",
     title: "Data Engineering Program (3 Months)",
     tag: "End to End",
     blurb: "The full journey — SQL → PySpark → Azure → Databricks → Interview",
@@ -67,7 +67,7 @@ export const MODULES = [
   },
   {
     id: "sql",
-    icon: "📊",
+    icon: "Database",
     title: "SQL Training",
     tag: "Month 1",
     blurb: "Think and code like a data engineer",
@@ -80,7 +80,7 @@ export const MODULES = [
   },
   {
     id: "spark",
-    icon: "⚡",
+    icon: "Zap",
     title: "Spark Training (PySpark)",
     tag: "Month 1",
     blurb: "From big data foundations to serious optimization",
@@ -95,7 +95,7 @@ export const MODULES = [
   },
   {
     id: "azure-adf",
-    icon: "✳️",
+    icon: "Factory",
     title: "Azure + Data Factory (ADF)",
     tag: "Month 2",
     blurb: "Build pipelines on a real cloud stack",
@@ -110,7 +110,7 @@ export const MODULES = [
   },
   {
     id: "databricks",
-    icon: "🔶",
+    icon: "Boxes",
     title: "Azure Databricks",
     tag: "Month 2",
     blurb: "The lakehouse, hands-on",
@@ -124,7 +124,7 @@ export const MODULES = [
   },
   {
     id: "advanced",
-    icon: "🧠",
+    icon: "BrainCircuit",
     title: "Advanced Data Engineering Concepts",
     tag: "Month 3",
     blurb: "The senior-engineer skill set",
@@ -140,7 +140,7 @@ export const MODULES = [
   },
   {
     id: "interview",
-    icon: "🤝",
+    icon: "Handshake",
     title: "Interview Support",
     tag: "All 3 months",
     blurb: "Build the pipeline. Then defend it.",
@@ -158,17 +158,17 @@ export const MODULES = [
 ];
 
 export const PROJECTS = [
-  { emoji: "📊", name: "SQL Analytics Project", stack: "SQL · Queries · Analytics" },
-  { emoji: "⚡", name: "Large-Scale PySpark ETL Pipeline", stack: "PySpark · Spark SQL · Optimization" },
-  { emoji: "☁️", name: "End-to-End Azure Pipeline", stack: "ADLS Gen2 · ADF · Databricks" },
-  { emoji: "🥉", name: "Bronze → Silver → Gold", stack: "Medallion · Delta Lake · Unity Catalog" },
+  { icon: "BarChart3", name: "SQL Analytics Project", stack: "SQL · Queries · Analytics" },
+  { icon: "Zap", name: "Large-Scale PySpark ETL Pipeline", stack: "PySpark · Spark SQL · Optimization" },
+  { icon: "Cloud", name: "End-to-End Azure Pipeline", stack: "ADLS Gen2 · ADF · Databricks" },
+  { icon: "Medal", name: "Bronze → Silver → Gold", stack: "Medallion · Delta Lake · Unity Catalog" },
 ];
 
 export const ROADMAP = [
-  "SQL", "PySpark", "Azure", "ADF", "Databricks", "Delta Lake", "Kafka", "Data Modelling", "Capstone", "Resume", "Mock Interview", "Placed 🎉",
+  "SQL", "PySpark", "Azure", "ADF", "Databricks", "Delta Lake", "Kafka", "Data Modelling", "Capstone", "Resume", "Mock Interview", "Placed",
 ];
 
-// ⚠️ Replace with your real students' words ASAP
+// Replace with your real students' words ASAP
 export const TESTIMONIALS = [
   { quote: "Explored everything ( not just basics ) around latest and greatest in data engineering realm under the guidance of industry experts", name: "Sk. Sameer", role: "Data Engineer, Infosys" },
   { quote: "Truly a great learning experience! Got the deep clarity of each and every topic involved in data engineering journey", name: "Bhargav Pim",  role: "Data Engineer, Accenture" },
@@ -176,7 +176,7 @@ export const TESTIMONIALS = [
 ];
 
 export const FAQS = [
-  { q: "I'm from a non-coding background. Can I still learn Data Engineering?", a: "100% yes. We start from absolute zero — SQL, Python and Linux taught from scratch in simple English. Many students came from civil, mechanical & commerce backgrounds and got placed 🎯" },
+  { q: "I'm from a non-coding background. Can I still learn Data Engineering?", a: "100% yes. We start from absolute zero — SQL, Python and Linux taught from scratch in simple English. Many students came from civil, mechanical & commerce backgrounds and got placed." },
   { q: "How much does the course cost?", a: "We keep it student-friendly and transparent — ping us on WhatsApp for current batch pricing and easy EMI options. No hidden fees, no upsell trap." },
   { q: "Are classes live or recorded?", a: "Both. It's a 3-month live program with every session recorded, plus weekly practice sessions — so college students & working folks never miss out." },
   { q: "What tools will I learn?", a: "SQL, PySpark & Spark SQL, Azure (ADLS Gen2, Data Factory), Databricks (Delta Lake, Medallion architecture, Unity Catalog), Kafka and an AWS overview (S3, Glue, EMR, Redshift, Lambda) — the exact stack companies hire for." },

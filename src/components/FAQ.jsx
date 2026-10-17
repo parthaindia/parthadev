@@ -8,7 +8,7 @@ export default function FAQ() {
     <section className="section sec-alt" id="faq">
       <div className="container container-narrow">
         <h2 className="section-title">
-          FAQs — <span className="grad-text">ask anything</span> 🙋
+          FAQs — <span className="grad-text">ask anything</span>
         </h2>
         <p className="section-sub">The questions everyone asks. Straight answers.</p>
 

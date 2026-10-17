@@ -1,11 +1,12 @@
 import { SITE, CONTACT } from "../config";
+import { LinkedinIcon, YoutubeIcon, GithubIcon } from "./BrandIcons";
 
 export default function Instructor() {
   return (
     <section className="section" id="instructor">
       <div className="container">
         <h2 className="section-title">
-          Meet your <span className="grad-text">mentor</span> 👋
+          Meet your <span className="grad-text">mentor</span>
         </h2>
 
         <div className="instructor-card card">
@@ -18,22 +19,21 @@ export default function Instructor() {
             <p className="instructor-role">Data &amp; Cloud Engineer · Founder, {SITE.name}</p>
 
             <div className="chip-row">
-              {["SQL", "Python", "Spark", "Kafka", "Airflow", "AWS", "Azure", "Docker"].map((t) => (
+              {["SQL", "PySpark", "Azure ADF", "Databricks", "Delta Lake", "Kafka", "Streaming", "GIT"].map((t) => (
                 <span className="chip" key={t}>{t}</span>
               ))}
             </div>
 
             <blockquote>
-              "Maine yeh program banaya hai for students who want{" "}
-              <b>practical skills, not certificates.</b> Har topic aise samjhaunga
-              jaise dost se baat kar rahe hain — simple, Indian, and straight
-              useful for jobs."
+              "I built this program for students who want{" "}
+              <b>practical skills, not certificates.</b> Every topic is explained
+              simply and directly — exactly the way it's used in real jobs."
             </blockquote>
 
             <div className="instructor-links">
-              <a href={CONTACT.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a>
-              <a href={CONTACT.github} target="_blank" rel="noreferrer">GitHub ↗</a>
-              <a href={CONTACT.youtube} target="_blank" rel="noreferrer">YouTube ↗</a>
+              <a href={CONTACT.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon /> LinkedIn</a>
+              <a href={CONTACT.github} target="_blank" rel="noreferrer"><GithubIcon /> GitHub</a>
+              <a href={CONTACT.youtube} target="_blank" rel="noreferrer"><YoutubeIcon /> YouTube</a>
             </div>
           </div>
         </div>

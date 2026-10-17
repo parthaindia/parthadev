@@ -1,18 +1,21 @@
 import { TESTIMONIALS } from "../config";
+import { Star } from "lucide-react";
 
 export default function Testimonials() {
   return (
     <section className="section" id="reviews">
       <div className="container">
         <h2 className="section-title">
-          Students <span className="grad-text">yapping about us</span> ⭐
+          Students <span className="grad-text">talking about us</span>
         </h2>
         <p className="section-sub">Real words from people who made the switch.</p>
 
         <div className="reviews-grid">
           {TESTIMONIALS.map((t) => (
             <div className="review card" key={t.name}>
-              <div className="review-stars">★★★★★</div>
+              <div className="review-stars" aria-label="5 out of 5 stars">
+                <span><Star /><Star /><Star /><Star /><Star /></span>
+              </div>
               <p className="review-quote">"{t.quote}"</p>
               <div className="review-author">
                 <div className="review-avatar" aria-hidden="true">{t.name[0]}</div>
