@@ -16,13 +16,13 @@ export default function Hero() {
         <h1>
           Data Engineering + Cloud,
           <br />
-          <span className="grad-text">samajh mein aayega</span> 🇮🇳
+          <span className="grad-text">made simple</span> 🇮🇳
         </h1>
 
         <p className="hero-sub">
           Go from <b>zero coding</b> to <b>job-ready data engineer</b> in{" "}
           <b>10 weeks</b> — SQL, Python, Spark, Kafka, AWS &amp; Azure, taught
-          with real projects and Hinglish clarity. No boring theory. Full
+          taught with real projects in simple language. No boring theory. Full
           hands-on.
         </p>
 

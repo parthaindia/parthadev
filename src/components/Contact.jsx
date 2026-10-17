@@ -25,7 +25,7 @@ export default function Contact() {
         </div>
 
         <p className="contact-note">
-          No spam, no annoying follow-up calls. Sirf useful info. 🤝
+          No spam, no annoying follow-up calls. Just useful info. 🤝
         </p>
       </div>
     </section>

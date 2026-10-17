@@ -6,7 +6,7 @@
 export const SITE = {
   name: "ParthaDev Community",
   shortName: "ParthaDev",
-  tagline: "Data Engineering + Cloud, samajh mein aayega",
+  tagline: "Data Engineering + Cloud, made simple",
   description:
     "Learn Data Engineering & Cloud from scratch — SQL, Python, Spark, Kafka, AWS & Azure. Beginner friendly, project first, made for Indian students.",
 };
@@ -41,12 +41,12 @@ export const STATS = [
 ];
 
 export const WHY = [
-  { emoji: "🎯", title: "Zero theory ratta", desc: "Every concept taught with a real example. No boring PPTs, pure vibes & value." },
+  { emoji: "🎯", title: "Zero theory, all practice", desc: "Every concept taught with a real example. No boring PPTs, pure vibes & value." },
   { emoji: "🗂️", title: "Project-first learning", desc: "You build a real data pipeline in week 1 itself — resume-ready by the end." },
   { emoji: "💸", title: "Talk fees in DM", desc: "Student-friendly pricing, EMI on request. No hidden fees game." },
   { emoji: "🧑‍🏫", title: "Direct mentor access", desc: "Doubts on WhatsApp, not in a comments section. Real answers, fast." },
-  { emoji: "🇮🇳", title: "Made for India", desc: "Hinglish explanations, IST schedule, Naukri/LinkedIn job-hunt prep included." },
-  { emoji: "♻️", title: "Lifetime access", desc: "Recordings, notes & interview QA — yours forever, batch se bhi aage." },
+  { emoji: "🇮🇳", title: "Made for India", desc: "Simple-English explanations, IST-friendly schedule, Naukri/LinkedIn job-hunt prep included." },
+  { emoji: "♻️", title: "Lifetime access", desc: "Recordings, notes & interview QA — yours forever, no expiry." },
 ];
 
 // Two tracks shown as tabs
@@ -130,7 +130,7 @@ export const TESTIMONIALS = [
 ];
 
 export const FAQS = [
-  { q: "I'm from a non-coding background. Can I still learn Data Engineering?", a: "100% yes. We start from absolute zero — SQL, Python and Linux taught from scratch with Hinglish explanations. Many students came from civil, mechanical & commerce backgrounds and got placed 🎯" },
+  { q: "I'm from a non-coding background. Can I still learn Data Engineering?", a: "100% yes. We start from absolute zero — SQL, Python and Linux taught from scratch in simple English. Many students came from civil, mechanical & commerce backgrounds and got placed 🎯" },
   { q: "How much does the course cost?", a: "We keep it student-friendly and transparent — ping us on WhatsApp for current batch pricing and easy EMI options. No hidden fees, no upsell trap." },
   { q: "Are classes live or recorded?", a: "Both. Live sessions every Sat–Sun evening (IST) for the main batch, and every session is recorded so college students & working folks never miss out." },
   { q: "What tools will I learn?", a: "SQL, Python, Linux, Git, Spark, Kafka, Airflow, Docker, AWS (S3, Glue, Athena, Redshift, Lambda) and Azure (ADF, Databricks, Synapse) — the exact stack companies hire for." },
