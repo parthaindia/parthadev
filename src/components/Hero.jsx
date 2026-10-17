@@ -21,9 +21,9 @@ export default function Hero() {
 
         <p className="hero-sub">
           Go from <b>zero coding</b> to <b>job-ready data engineer</b> in{" "}
-          <b>10 weeks</b> — SQL, Python, Spark, Kafka, AWS &amp; Azure, taught
-          taught with real projects in simple language. No boring theory. Full
-          hands-on.
+          <b>3 months</b> — SQL, PySpark, Azure, ADF &amp; Databricks, with a
+          real end-to-end project and interview prep all the way. No boring
+          theory. Full hands-on.
         </p>
 
         <div className="hero-cta">
