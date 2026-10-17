@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MODULES, whatsappLink } from "../config";
 
 export default function Curriculum() {
-  const [openSet, setOpenSet] = useState(new Set(["sql"])); // first module open
+  const [openSet, setOpenSet] = useState(new Set(["de-program"])); // first module open
 
   const toggle = (id) => {
     setOpenSet((prev) => {

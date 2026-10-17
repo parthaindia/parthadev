@@ -52,6 +52,20 @@ export const WHY = [
 // Accordion modules — click to open/close (from the official program PDF)
 export const MODULES = [
   {
+    id: "de-program",
+    icon: "🚀",
+    title: "Data Engineering Program (3 Months)",
+    tag: "End to End",
+    blurb: "The full journey — SQL → PySpark → Azure → Databricks → Interview",
+    items: [
+      "Month 1 · Foundation: SQL (joins → window functions, CTEs, 100+ problems) + Spark/PySpark core with optimization",
+      "Month 2 · Cloud: Azure fundamentals (ADLS Gen2, Blob, security) + Data Factory pipelines + Azure Databricks & Delta Lake",
+      "Month 3 · Mastery: advanced DE concepts (data modelling, CDC, streaming, Kafka) + AWS foundation + interview mastery",
+      "1 real end-to-end Azure pipeline: ADLS Gen2 + ADF + Databricks — Bronze → Silver → Gold",
+      "Interview prep runs the whole way: 2 mock interviews + 2 resume reviews + weekly practice",
+    ],
+  },
+  {
     id: "sql",
     icon: "📊",
     title: "SQL Training",
